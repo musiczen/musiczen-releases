@@ -22,17 +22,21 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.4.4] - 2017-04-03
-> **Windows only**
+> **Windows only** · Desktop installer discontinued — portable is the only release from this version onwards
 
-- Free version is now portable (no installation required)
+**Release model:** Single portable build — free basic version. Activating a license (name + email) unlocks advanced features. No separate pro download needed.
+
+- Desktop installer discontinued; portable is now the sole release
+- Free version is portable (no installation required)
 - License activation now uses name and email — no license key needed
+- Activating a license unlocks advanced features in the same download
 - Justified text alignment fix for destination input field
 - Updated site URLs
 
 ---
 
 ## [1.4.3] - 2016-04-17
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
 
 - Updated URLs to use SSL (HTTPS)
 - Fixed application crash on license activation caused by .NET Framework update
@@ -40,7 +44,7 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.4.2] - 2014-06-29
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
 
 - Increased label box size for file name field
 - Updated site URLs
@@ -48,7 +52,7 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.4.0] - 2014-05-18
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
 
 - Redesigned license activation form
 - Added two additional license types with type info displayed on form
@@ -62,7 +66,7 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.3.1] - 2014-04-26
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
 
 - Released local installation package
 - Fixed dropdown menu to correctly display underscore character
@@ -71,12 +75,12 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.3.0] - 2014-03-21
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
 
 - UI/UX enhancements throughout
 - Added music genre support
 - Advanced options: drag UI elements to build custom folder structure and file naming
-- Added licensing system
+- Introduced licensing system — portable version unlocks advanced features with a valid license
 - Improved file handling with multiple file options
 - Better task report layout
 - Various bug fixes
@@ -84,7 +88,7 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.2.0] - 2013-02-10
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (free)
 
 - Added background workers for collecting and sorting music (non-blocking)
 - Search capabilities
@@ -95,6 +99,6 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.0.0] - 2012-11-16
-> **Windows only**
+> **Windows only** · Two builds available: desktop installer (free) + portable (free)
 
 - Initial release
