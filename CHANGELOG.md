@@ -4,7 +4,7 @@ All notable changes to MusicZen are documented here.
 
 ---
 
-## [2.0.0] - TBD
+## [2.0.0] - 2026-06-08
 **Cross-platform rewrite — Free Release**
 
 This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for free.
@@ -22,21 +22,18 @@ This is a full rewrite of MusicZen, now available on Mac, Windows, and Linux for
 ---
 
 ## [1.4.4] - 2017-04-03
-> **Windows only** · Desktop installer discontinued — portable is the only release from this version onwards
+> **Windows only** · Desktop installer discontinued — two portable builds available: free and pro
 
-**Release model:** Single portable build — free basic version. Activating a license (name + email) unlocks advanced features. No separate pro download needed.
-
-- Desktop installer discontinued; portable is now the sole release
-- Free version is portable (no installation required)
-- License activation now uses name and email — no license key needed
-- Activating a license unlocks advanced features in the same download
+- Desktop installer discontinued; both builds are now portable (no installation required)
+- Free version is now portable
+- License activation uses name and email — no license key needed
 - Justified text alignment fix for destination input field
 - Updated site URLs
 
 ---
 
 ## [1.4.3] - 2016-04-17
-> **Windows only** · Two builds available: desktop installer (free) + portable (license required for advanced features)
+> **Windows only** · Portable only (desktop installer discontinued from this version)
 
 - Updated URLs to use SSL (HTTPS)
 - Fixed application crash on license activation caused by .NET Framework update
