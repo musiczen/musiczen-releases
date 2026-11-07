@@ -1,6 +1,37 @@
 # Changelog
 
 All notable changes to MusicZen are documented here.
+---
+
+## [2.0.1] - 2026-11-07
+**Safety release — Free Release**
+
+Your music files are safer: MusicZen never overwrites a file, and the end screen shows exactly what happened.
+
+### Your files are safer
+- Never overwrites a file — when a better copy of a song arrives, the old one is moved to a `MusicZen Replaced` folder inside your destination; delete that folder once you've checked the new files
+- Different songs with the same name are both kept — the second gets `(2)` in its name
+- Copies keep their original Date Modified
+- Same song at the same audio quality — the file with cover art or more tag info is kept
+
+### Better results
+- End screen shows what happened: Copied (or Moved) · Replaced · Duplicates · Problems
+- Files with upper-case extensions (`.MP3`, `.Flac`) are now found
+- Folders whose names differ only in capitals or accents are merged into one
+- After a Move, emptied folders are removed even when they still hold hidden macOS or Windows files
+- On Windows, very long folder and file names are shortened to stay within Windows path limits
+- Unsafe characters in tags are replaced: "AC/DC" → "AC-DC" (was "AC_DC"), "R.E.M." → "R.E.M"
+
+### Downloads
+- `MusicZen-mac.dmg` — macOS, now runs natively on Intel and Apple Silicon Macs
+- `MusicZen-win.exe` — Windows (not code-signed yet: if Windows warns, choose **More info → Run anyway**)
+- `MusicZen-linux-x64.AppImage` — Linux (x64), new
+- `MusicZen-linux-arm64.AppImage` — Linux (ARM64)
+
+### Security
+- Security improvements under the hood
+
+> **Note:** running 2.0.1 over a library organized with 2.0.0 can create a second folder for names with unsafe characters (e.g. "AC/DC", "R.E.M.").
 
 ---
 
